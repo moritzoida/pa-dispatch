@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <audio id="sound" src="dispatch.ogg"></audio>
+
+    <script>
+        window.addEventListener('message', (e) => {
+            if (e.data.play === true) {
+                const a = document.getElementById('sound');
+                a.pause();
+                a.currentTime = 0;
+                a.volume = 0.4;
+                a.play();
+            }
+        });
+    </script>
+</body>
+</html>
