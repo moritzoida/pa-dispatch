@@ -1,3 +1,6 @@
+------------>Project Alpha<--------------
+----->https://discord.gg/EKyPk4QbgD<-----
+
 fx_version 'cerulean'
 game 'gta5'
 

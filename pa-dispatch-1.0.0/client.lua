@@ -1,3 +1,6 @@
+------------>Project Alpha<--------------
+----->https://discord.gg/EKyPk4QbgD<-----
+
 ESX = nil
 
 local SuppressorComponents = {
@@ -170,3 +173,7 @@ AddEventHandler('police_dispatch:alert', function(coords, weaponCategory)
         end
     end)
 end)
+
+print("A FiveM Dispatch Script")
+print("Version: 1.0.0")
+print("Autor: Project Alpha - moritzoida")

@@ -1,3 +1,6 @@
+------------>Project Alpha<--------------
+----->https://discord.gg/EKyPk4QbgD<-----
+
 ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj)
     ESX = obj
@@ -15,7 +18,7 @@ AddEventHandler('police_dispatch:gunshot', function(coords, weaponCategory, hasS
     local now = GetGameTimer()
     local xShooter = ESX.GetPlayerFromId(src)
 
-    -- ?? Police schießt ? KEIN Dispatch
+    -- ?? Police schieï¿½t ? KEIN Dispatch
     if xShooter and xShooter.job and xShooter.job.name == 'police' then
         return
     end
