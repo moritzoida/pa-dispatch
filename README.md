@@ -1,4 +1,4 @@
-# pa-dispatch
+# srag-dispatch
 FiveM Dispatch Script for ESX — check the Showcase below.
 Showcase: https://streamable.com/goi3hs
 
